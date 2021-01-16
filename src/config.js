@@ -4,17 +4,6 @@ export const PAGES = {
     playPage: "playPage",
 };
 
-export const PLAYLISTTYPE = {
-    searchType: "searchType",
-    playType: "playType",
-};
-
-export const SEARCH_TYPE = {
-    videos: "videos",
-    search: "search",
-    chanenls: "channels",
-};
-
 const requestOptions = {
     method: "GET",
     redirect: "follow",
