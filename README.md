@@ -16,6 +16,7 @@
 
 <!-- PROJECT LOGO -->
 # YouTube Clone Coding
+- Youtube api, react를 이용한 youtube 클론코딩 프로젝트
 
 ---
 
