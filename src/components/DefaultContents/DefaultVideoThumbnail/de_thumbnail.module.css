@@ -1,0 +1,53 @@
+:root {
+    --title-color: #ffffff;
+    --other-font-color: #727272;
+
+    --title-size: 1rem;
+    --other-size: 0.8rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    transition: 0.2s ease-in-out 0s;
+    text-align: left;
+}
+
+.container:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container > img {
+    align-self: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    width: 280px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+}
+
+.title {
+    color: var(--title-color);
+    font-size: var(--title-size);
+}
+
+.chanelImg {
+    border-radius: 50%;
+}
+
+.chanel,
+.publishTime {
+    color: var(--other-font-color);
+    font-size: var(--other-size);
+    margin-left: 5px;
+}

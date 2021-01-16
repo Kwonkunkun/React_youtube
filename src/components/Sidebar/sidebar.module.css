@@ -1,0 +1,81 @@
+:root {
+    --side-color: #242525;
+    --font-color: #ffffff;
+
+    --hover-color: #383838;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    background-color: var(--side-color);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 100%;
+}
+
+.container > * {
+    padding: 20px;
+    color: var(--font-color);
+}
+
+.container button {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+}
+
+.container button:hover {
+    background-color: var(--hover-color);
+}
+
+.container button span {
+    margin-top: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
+/*pc*/
+@media (min-width: 767px) and (max-width: 1280px) {
+    .container {
+        animation: fadein 1s;
+        animation-fill-mode: forwards;
+        display: inline-block;
+    }
+}
+
+/*mobile*/
+@media (min-width: 320px) and (max-width: 766px) {
+    .container {
+        animation: fadeout 1s;
+        animation-fill-mode: forwards;
+        display: none;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translate(-100%);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        transform: translate(-100%);
+        opacity: 0;
+    }
+}

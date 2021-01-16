@@ -1,0 +1,100 @@
+:root {
+    --header-color: #242525;
+    --logo-color: #ea3323;
+    --search-input-color: #121212;
+    --search-button-color: #313131;
+    --font-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 50px;
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo i {
+    margin: 5px;
+    font-size: 30px;
+    color: var(--font-color);
+}
+
+.icon i {
+    color: var(--logo-color);
+}
+
+.searchContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchContainer input {
+    height: 70%;
+    margin-left: 12%;
+    flex: 1;
+    background-color: var(--search-input-color);
+    color: var(--font-color);
+    font-size: 17px;
+    outline: 3;
+    outline-color: black;
+    border: 0;
+}
+
+.searchContainer button {
+    background-color: var(--search-button-color);
+    color: gray;
+    border: 0;
+    outline: 0;
+}
+
+.searchContainer i {
+    margin: 10px;
+    margin-right: 10%;
+    color: var(--font-color);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    color: var(--font-color);
+}
+
+.menu i {
+    margin: 5px;
+}
+
+@media (min-width: 1281px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+}

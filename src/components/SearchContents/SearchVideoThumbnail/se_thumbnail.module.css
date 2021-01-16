@@ -1,0 +1,116 @@
+:root {
+    --title-color: #ffffff;
+    --other-font-color: #727272;
+
+    --title-small-size: 1rem;
+    --other-small-size: 0.8rem;
+
+    --title-middle-size: 1.5rem;
+    --other-middle-size: 1.2rem;
+
+    --title-large-size: 1.7rem;
+    --other-large-size: 1.3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    transition: 0.2s ease-in-out 0s;
+    text-align: left;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+}
+
+.title {
+    color: var(--title-color);
+    font-size: var(--title-small-size);
+}
+
+.chanelImg {
+    display: none;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.chanel,
+.publishTime {
+    color: var(--other-font-color);
+    font-size: var(--other-small-size-size);
+    margin-left: 5px;
+}
+
+@media (min-width: 576px) {
+    .container > img {
+        width: 180px;
+        height: 101px;
+    }
+
+    .title {
+        font-size: var(--title-small-size);
+    }
+
+    .chanel,
+    .publishTime {
+        font-size: var(--other-small-size);
+    }
+}
+@media (min-width: 768px) {
+    .container > img {
+        width: 280px;
+        height: 158px;
+    }
+    .title {
+        font-size: var(--title-middle-size);
+    }
+
+    .chanel,
+    .publishTime {
+        font-size: var(--other-middle-size);
+    }
+}
+@media (min-width: 992px) {
+    .container > img {
+        width: 320px;
+        height: 180px;
+    }
+
+    .title {
+        font-size: var(--title-middle-size);
+    }
+
+    .chanel,
+    .publishTime {
+        font-size: var(--other-middle-size);
+    }
+}
+@media (min-width: 1200px) {
+    .container > img {
+        width: 320px;
+        height: 180px;
+    }
+
+    .title {
+        font-size: var(--title-large-size);
+    }
+
+    .chanel,
+    .publishTime {
+        font-size: var(--other-large-size);
+    }
+}

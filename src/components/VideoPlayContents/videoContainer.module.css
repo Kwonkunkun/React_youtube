@@ -1,0 +1,127 @@
+.container {
+    background-color: #181818;
+}
+
+.embed_youtube {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.embed_youtube iframe {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_container {
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title_tag {
+    font-size: 11px;
+    color: #0984e3;
+}
+
+.title_name {
+    color: white;
+    font-size: 17px;
+}
+
+.title_menu_container {
+    display: flex;
+    height: 24px;
+    justify-content: space-between;
+}
+
+.title_menu_container .date {
+    color: #b2bec3;
+    font-size: 12px;
+}
+
+.title_menu_container .menu_container {
+    margin-right: 5px;
+}
+
+.title_menu_container .menu_container * {
+    color: white;
+}
+
+.title_menu_container .menu_container button {
+    margin: 2px;
+}
+
+.title_menu_container .menu_container i {
+    margin-right: 4px;
+}
+
+.description .explain_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #636e72;
+    border-left: none;
+    border-right: none;
+}
+
+.picture img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.explain_container {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.explain_container .detail_container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail_container {
+    color: white;
+    margin: 10px;
+}
+
+.detail_container .author_name {
+    font-size: 15px;
+}
+
+.detail_container .subscriber {
+    color: #b2bec3;
+    font-size: 11px;
+}
+
+.detail_container .brief_explain {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.explain_container .subscribeBtn {
+    background-color: #ff3f34;
+    color: white;
+    height: 35px;
+    width: 60px;
+    margin: 20px;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+}
+
+.contents_left .comment_container {
+    background-color: brown;
+}
