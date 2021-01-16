@@ -15,10 +15,7 @@
 -->
 
 <!-- PROJECT LOGO -->
-<header>
-  <span style = "color: #EA2027; font-family:courier; font-size:300%;" >YOUTUBE</span>
-  <span style = "color: #ffffff; font-family:verdana; font-size:200%; margin: 20px;" >clone colding</span>
-</header>
+# YouTube Clone Coding
 
 ---
 
@@ -55,13 +52,13 @@
 ## About The Project
 
 <span style="font-size:1.1em;">Default Page (view most popular video)</span>
-<img width="1680" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/104805728-91e20b80-5815-11eb-86a7-c35528058358.png">
+<img width="1680" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/104805728-91e20b80-5815-11eb-86a7-c35528058358.png">
 
 <span style="font-size:1.1em;">Search Page (view video searched keyword)</span>
-<img width="1680" alt="스크린샷 2021-01-16 오후 4 09 47" src="https://user-images.githubusercontent.com/59603575/104805730-93133880-5815-11eb-8eeb-8efaf60912ca.png">
+<img width="1680" alt="스크린샷 2021-01-16 오후 4 09 47" src="https://user-images.githubusercontent.com/59603575/104805730-93133880-5815-11eb-8eeb-8efaf60912ca.png">
 
 <span style="font-size:1.1em;" >Play Page (view video clicked)</span>
-<img width="1680" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104805733-97d7ec80-5815-11eb-8f52-df801d5b676a.png">
+<img width="1680" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104805733-97d7ec80-5815-11eb-8f52-df801d5b676a.png">
 
 [Demo link](https://kwonkunkun.github.io/React_youtube/)
 
@@ -69,33 +66,32 @@
 
 ## Structure
 
-<span style="font-size:1.1em ;">전체 구조</span>
+### 전체 구조
 
-<img width="1680" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104806018-b8a14180-5817-11eb-87f3-ebcf11d7e917.png">
+<img width="1680" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104806018-b8a14180-5817-11eb-87f3-ebcf11d7e917.png">
 
-<span style="font-size:1.1em; color: #e67e22;">Search 기능</span>
+***
 
-<div style="display: flex">
-<img width="60%" style="margin:0; padding:0;" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104806022-bc34c880-5817-11eb-8ce1-bc1dbb7dfd07.png">
-<span style="font-size: 1.1em; margin-left:1em; color: #e67e22;">
-1. Search form (검색창) 입력</br>
-2. App에서 PAGE state 변경 </br>
-3. Search video list에서 config에 getApiData요청 </br>
-4. 그 데이터를 이용해서 thumnail출력
-</span>
-</div>
+### Search 기능
 
-<span style="font-size:1.1em; color: #3498db;">Thumbnail click시 video page로 가는 기능</span>
+<img width="60%" style="margin:0; padding:0;" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104806022-bc34c880-5817-11eb-8ce1-bc1dbb7dfd07.png">
 
-<div style="display: flex">
-<img width="60%" style="margin:0; padding:0;" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104806020-ba6b0500-5817-11eb-910c-28f2f785ac98.png">
+- 1. Search form (검색창) 입력</br>
+- 2. App에서 PAGE state 변경 </br>
+- 3. Search video list에서 config에 getApiData요청 </br>
+- 4. 그 데이터를 이용해서 thumnail출력
+
+***
+
+### Thumbnail click시 video page로 가는 기능
+
+
+<img width="60%" style="margin:0; padding:0;" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104806020-ba6b0500-5817-11eb-910c-28f2f785ac98.png">
 <span style="font-size: 1.1em; margin-left:1em; color: #3498db;">
-1. Search form (검색창) 입력</br>
-2. App에서 PAGE state 변경 </br>
-3. Search video list에서 config에 getApiData요청 </br>
-4. 그 데이터를 이용해서 thumnail출력
-</span>
-</div>
+- 1. Search form (검색창) 입력</br>
+- 2. App에서 PAGE state 변경 </br>
+- 3. Search video list에서 config에 getApiData요청 </br>
+- 4. 그 데이터를 이용해서 thumnail출력
 
 ---
 
