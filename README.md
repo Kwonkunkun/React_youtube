@@ -51,13 +51,16 @@
 
 ## About The Project
 
-<span style="font-size:1.1em;">Default Page (view most popular video)</span>
+### Default Page
+***
 <img width="1680" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/104805728-91e20b80-5815-11eb-86a7-c35528058358.png">
 
-<span style="font-size:1.1em;">Search Page (view video searched keyword)</span>
+### Search Page (view video searched keyword)
+***
 <img width="1680" alt="스크린샷 2021-01-16 오후 4 09 47" src="https://user-images.githubusercontent.com/59603575/104805730-93133880-5815-11eb-8eeb-8efaf60912ca.png">
 
-<span style="font-size:1.1em;" >Play Page (view video clicked)</span>
+### Play Page (view video clicked)
+***
 <img width="1680" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104805733-97d7ec80-5815-11eb-8f52-df801d5b676a.png">
 
 [Demo link](https://kwonkunkun.github.io/React_youtube/)
