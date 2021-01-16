@@ -97,7 +97,7 @@
 
 ## Reference
 
-Reference Link : </div>
+Reference Link : </br>
 [youtube api](https://developers.google.com/youtube/v3/getting-started?hl=ko) </br>
 [create react](https://create-react-app.dev)</br>
 [dream coding ellie](https://academy.dream-coding.com/enrollments#)
