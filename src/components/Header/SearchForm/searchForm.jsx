@@ -29,7 +29,6 @@ const SearchForm = memo((props) => {
             <button className="search-button">
                 <i className="fa fa-search"></i>
             </button>
-            <i className="fas fa-microphone"></i>
         </form>
     );
 });

@@ -55,7 +55,7 @@
     margin-left: 5px;
 }
 
-@media (min-width: 576px) {
+@media only screen (min-width: 576px) {
     .container > img {
         width: 180px;
         height: 101px;
@@ -70,7 +70,7 @@
         font-size: var(--other-small-size);
     }
 }
-@media (min-width: 768px) {
+@media only screen (min-width: 768px) {
     .container > img {
         width: 280px;
         height: 158px;
@@ -84,7 +84,7 @@
         font-size: var(--other-middle-size);
     }
 }
-@media (min-width: 992px) {
+@media only screen (min-width: 992px) {
     .container > img {
         width: 320px;
         height: 180px;
@@ -99,7 +99,7 @@
         font-size: var(--other-middle-size);
     }
 }
-@media (min-width: 1200px) {
+@media only screen (min-width: 1200px) {
     .container > img {
         width: 320px;
         height: 180px;

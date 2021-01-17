@@ -112,7 +112,7 @@ class VideoContainer extends Component {
                             <img src={this.state.channelThumnailUrl}></img>
                         </a>
                         <div className={styles.detail_container}>
-                            <a href="" className={styles.author_name}>
+                            <a href="#" className={styles.author_name}>
                                 {this.state.datas.channelTitle}
                             </a>
                             <div className={styles.subscriber}>

@@ -42,24 +42,6 @@ button {
     text-align: center;
 }
 
-/*pc*/
-@media (min-width: 767px) and (max-width: 1280px) {
-    .container {
-        animation: fadein 1s;
-        animation-fill-mode: forwards;
-        display: inline-block;
-    }
-}
-
-/*mobile*/
-@media (min-width: 320px) and (max-width: 766px) {
-    .container {
-        animation: fadeout 1s;
-        animation-fill-mode: forwards;
-        display: none;
-    }
-}
-
 @keyframes fadein {
     from {
         opacity: 0;
@@ -77,5 +59,21 @@ button {
     to {
         transform: translate(-100%);
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 574px) {
+    .container {
+        animation: fadeout 1s;
+        animation-fill-mode: forwards;
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 575px) {
+    .container {
+        animation: fadein 1s;
+        animation-fill-mode: forwards;
+        display: inline-block;
     }
 }

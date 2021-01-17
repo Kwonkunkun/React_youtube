@@ -8,10 +8,10 @@ class Header extends Component {
             <nav className={styles.container}>
                 <div className={styles.logo}>
                     <i className="fas fa-bars"></i>
-                    <span className={styles.icon}>
+                    <a href="" className={styles.icon}>
                         <i className="fab fa-youtube"></i>
-                    </span>
-                    <a href="">Youtube</a>
+                    </a>
+                    <span className={styles.title}>Youtube</span>
                 </div>
                 <SearchForm onSearch={this.props.onSearch} />
                 <div className={styles.menu}>
