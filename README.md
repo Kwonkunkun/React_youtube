@@ -83,7 +83,7 @@
 1. Search form (검색창) 입력</br>
 2. App에서 PAGE state 변경 </br>
 3. Search video list에서 config에 getApiData요청 </br>
-4. 그 데이터를 이용해서 thumnail출력
+4. 그 데이터를 이용해서 thumnail render
 
 ***
 
@@ -92,10 +92,10 @@
 
 <img width="60%" style="margin:0; padding:0;" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104806020-ba6b0500-5817-11eb-910c-28f2f785ac98.png">
 <span style="font-size: 1.1em; margin-left:1em; color: #3498db;">
-1. Search form (검색창) 입력</br>
+1. Thumbnail img or container click</br>
 2. App에서 PAGE state 변경 </br>
-3. Search video list에서 config에 getApiData요청 </br>
-4. 그 데이터를 이용해서 thumnail출력
+3. config에 받은 video id를 이용해서 getApiData요청 </br>
+4. 그 데이터를 이용해서 ifram, 그 외 데이터들을 받아와서 video contanier에서 render
 
 ---
 
