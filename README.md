@@ -95,7 +95,7 @@
 1. Thumbnail img or container click</br>
 2. App에서 PAGE state 변경 </br>
 3. config에 받은 video id를 이용해서 getApiData요청 </br>
-4. 그 데이터를 이용해서 ifram, 그 외 데이터들을 받아와서 video contanier에서 render
+4. 그 데이터를 이용해서 video title, like 등의 데이터들을 받아와서 video contanier에서 render
 
 ---
 
