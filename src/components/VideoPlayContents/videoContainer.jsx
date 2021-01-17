@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import styles from "./videoContainer.module.css";
 import * as config from "../../config.js";
 
@@ -14,7 +14,7 @@ const DATAFORM = {
     dislikeCount: undefined,
 };
 
-class VideoContainer extends Component {
+class VideoContainer extends PureComponent {
     state = {
         datas: Object.assign(DATAFORM),
         channelThumnailUrl: undefined,
@@ -67,9 +67,9 @@ class VideoContainer extends Component {
                 <section className={styles.embed_youtube}>
                     <iframe
                         src={`https://www.youtube.com/embed/${this.props.videoId}`}
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
+                        frameBorder="0"
                     ></iframe>
                 </section>
                 <section className={styles.description}>

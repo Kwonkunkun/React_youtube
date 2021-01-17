@@ -1,10 +1,10 @@
 import { configure } from "@testing-library/react";
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import styles from "./de_thumbnail.module.css";
 import * as config from "../../../config.js";
 
 //하... 썸네일도 뿌려야 되는데 api 너무많이쓰넴..
-class Thumbnail extends Component {
+class Thumbnail extends PureComponent {
     state = {
         channelThumnailUrl: undefined,
     };

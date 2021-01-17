@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import styles from "./popularVideoList.module.css";
 import Thumbnail from "./DefaultVideoThumbnail/de_thumbnail";
 import * as config from "../../config";
 
-class PopularVideoList extends Component {
+class PopularVideoList extends PureComponent {
     state = {
         datas: [],
     };

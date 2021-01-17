@@ -3,11 +3,11 @@
 }
 
 .embed_youtube {
+    margin-top: 20px;
     position: relative;
-    overflow: hidden;
-    height: 0;
+    width: 100%;
     padding-bottom: 56.25%;
-    padding-top: 30px;
+    overflow: hidden;
 }
 
 .embed_youtube iframe {
@@ -126,4 +126,10 @@
 
 .contents_left .comment_container {
     background-color: brown;
+}
+
+@media only screen and (max-width: 499px) {
+    .embed_youtube iframe {
+        width: 100vh;
+    }
 }
