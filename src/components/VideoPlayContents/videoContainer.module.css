@@ -130,6 +130,6 @@
 
 @media only screen and (max-width: 499px) {
     .embed_youtube iframe {
-        width: 100vh;
+        width: 100vw;
     }
 }

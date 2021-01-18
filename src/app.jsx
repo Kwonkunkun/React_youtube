@@ -6,6 +6,7 @@ import Sidebar from "./components/Sidebar/sidebar";
 import PopularVideoList from "./components/DefaultContents/popularVideoList";
 import SearchVideoList from "./components/SearchContents/searchVideoList";
 import VideoContainer from "./components/VideoPlayContents/videoContainer";
+import ScrollToTop from "./components/scrollToTop";
 
 class App extends Component {
     state = {
@@ -29,6 +30,8 @@ class App extends Component {
 
         //여기서는 무슨 비디오를 요청했는지 videoId를 받아오고 이 아이디를 바탕으로 play page를 띄운다.
         this.changePage(config.PAGES.playPage);
+
+        //여기서 유튜브처럼 맨위로 가는 기능 추가
     };
 
     changePage = (newPage) => {
