@@ -24,16 +24,26 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
+    <li><a href="#reason">프로젝트 목적</a></li>
     <li><a href="#use-tech">Use tech</a></li>
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
     <li><a href="#structure">구조 및 구현내용</a></li>
+    <li><a href="#new">알게된 것</a></li>
     <li><a href="#reference">Reference</a></li>
   </ol>
 </details>
 
 ---
+
+<div id="reason"/>
+
+## 프로젝트 목적
+
+- React에 대한 이해를 하기 위한 실전 연습 프로젝트
+- public api에 대한 학습
+
 
 <!--USE TECH-->
 
@@ -126,6 +136,19 @@
 2. App에서 PAGE state 변경 </br>
 3. config에 받은 video id를 이용해서 getApiData요청 </br>
 4. 그 데이터를 이용해서 video title, like 등의 데이터들을 받아와서 video contanier에서 render
+
+---
+
+<div id="new"/>
+
+## 알게된 것
+
+- React의 state, props를 이해
+- component와 pure component의 차이점 학습
+- function type의 리액트 작성 방법 학습
+- postcss 학습
+- public api의 사용법, postman 이용방법 학습
+- 부족한 css의 grid에 대한 이해
 
 ---
 
