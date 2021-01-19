@@ -145,7 +145,7 @@
 
 - React의 state, props를 이해
 - component와 pure component의 차이점 학습
-- function type의 리액트 작성 방법 학습
+- React hook 학습
 - postcss 학습
 - public api의 사용법, postman 이용방법 학습
 - 부족한 css의 grid에 대한 이해
