@@ -118,9 +118,9 @@ class VideoContainer extends PureComponent {
                             <div className={styles.subscriber}>
                                 구독자 4.61만명
                             </div>
-                            <div className={styles.brief_explain}>
+                            <pre className={styles.brief_explain}>
                                 {this.state.datas.description}
-                            </div>
+                            </pre>
                         </div>
                         <button className={styles.subscribeBtn}>구독</button>
                     </div>

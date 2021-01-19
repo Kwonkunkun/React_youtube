@@ -111,6 +111,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 15px;
+    white-space: pre-wrap;
 }
 
 .explain_container .subscribeBtn {
