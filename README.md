@@ -94,7 +94,7 @@
 ### Mobile!!
 <div>
 <img width="30%" alt="image" src="https://user-images.githubusercontent.com/59603575/105007489-66605a80-5a7b-11eb-9b40-b2705c500957.png">
-<img width="30%" alt="image" src="https://user-images.githubusercontent.com/59603575/105007472-62343d00-5a7b-11eb-8963-eb6e0965810e.png">
+<img width="30%" alt="image" src="https://user-images.githubusercontent.com/59603575/105007992-028a6180-5a7c-11eb-9d77-5db73f8890eb.png">
 </div>
 ---
 
