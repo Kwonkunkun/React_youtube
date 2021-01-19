@@ -62,6 +62,8 @@
 
 ## About The Project
 
+[Demo link](https://kwonkunkun.github.io/React_youtube/)
+
 ### Default Page
 ***
 
@@ -98,8 +100,6 @@
 
 - thumbnail을 눌렀을때 그 thumbnail의 videoid에 맞는 비디오를 화면에 보이게 구현
 - 화면에 따른 반응형 화면 구현
-
-[Demo link](https://kwonkunkun.github.io/React_youtube/)
 
 ### Mobile!!
 <div>
