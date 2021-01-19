@@ -10,20 +10,6 @@ class Thumbnail extends PureComponent {
         styles: undefined,
     };
 
-    //// 일단 없는게 깔끔해서 뺐음.. 필요하면 쓸것
-    // //썸네일 이미지 때문에.. api 호출 여기서 하는게.. 좋을듯
-    // componentDidMount() {
-    //     config.getYoutubeChanelData(
-    //         this.props.data.snippet.channelId,
-    //         this.updateChannelThunmnailUrl
-    //     );
-    // }
-
-    // updateChannelThunmnailUrl = (datas) => {
-    //     const channelThumnailUrl = datas.snippet.thumbnails.default.url;
-    //     this.setState({ channelThumnailUrl });
-    // };
-
     onVideoImgClick = () => {
         this.props.onEnterVideo(this.props.data.id.videoId);
     };
@@ -37,8 +23,8 @@ class Thumbnail extends PureComponent {
             <button className={styles.container} onClick={this.onVideoImgClick}>
                 <img
                     src={this.props.data.snippet.thumbnails.medium.url}
-                    width="280"
-                    height="158"
+                    width="180"
+                    height="101"
                     alt=""
                 />
                 <div className={styles.description}>

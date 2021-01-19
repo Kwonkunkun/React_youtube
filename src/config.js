@@ -30,7 +30,7 @@ export async function getYoutubeVideoData(videoId, callback) {
 }
 
 export async function getYoutubeSearchData(keyword, callback) {
-    const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=${keyword}&regionCode=KR&key=${process.env.REACT_APP_API_KEY}`;
+    const url = `https://youtube.googleapis.com/youtube/v3/search?type=video&part=snippet&maxResults=20&q=${keyword}&regionCode=KR&key=${process.env.REACT_APP_API_KEY}`;
     fetch(url, requestOptions)
         .then((response) => response.json())
         .then((result) => {

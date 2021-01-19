@@ -25,11 +25,6 @@
     cursor: pointer;
 }
 
-.container > img {
-    width: 180px;
-    height: 101px;
-}
-
 .description {
     display: flex;
     flex-direction: column;

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import styles_search from "./se_searchVideoList.module.css";
-import styles_play from "./pl_searchVideoList.module.css";
+import styles from "./searchVideoList.module.css";
 import Thumbnail from "./SearchVideoThumbnail/se_thumbnail";
 import * as config from "../../config.js";
 
@@ -34,8 +33,8 @@ class SearchVideoList extends Component {
             <div
                 className={
                     this.props.page === config.PAGES.searchPage
-                        ? styles_search.container
-                        : styles_play.container
+                        ? styles.search
+                        : styles.play
                 }
             >
                 {this.state.datas.map((data) => (
