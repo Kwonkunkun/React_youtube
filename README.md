@@ -24,16 +24,26 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
+    <li><a href="#reason">프로젝트 목적</a></li>
     <li><a href="#use-tech">Use tech</a></li>
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
     <li><a href="#structure">구조 및 구현내용</a></li>
+    <li><a href="#new">알게된 것</a></li>
     <li><a href="#reference">Reference</a></li>
   </ol>
 </details>
 
 ---
+
+<div id="reason"/>
+
+## 프로젝트 목적
+
+- React에 대한 이해를 하기 위한 실전 연습 프로젝트
+- public api에 대한 학습
+
 
 <!--USE TECH-->
 
@@ -52,20 +62,50 @@
 
 ## About The Project
 
+[Demo link](https://kwonkunkun.github.io/React_youtube/)
+
 ### Default Page
 ***
-<img width="1680" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/104805728-91e20b80-5815-11eb-86a7-c35528058358.png">
+
+<div>
+<img width="45%" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/105004696-ab828d80-5a77-11eb-8359-c9d177e5556e.png">
+<img width="46%" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/105004700-acb3ba80-5a77-11eb-90f5-d29bb14a529c.png">
+</div>
+
+<div>
+<img width="45%" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/105004705-ade4e780-5a77-11eb-8b62-feaf7d1a154e.png">
+<img width="45%" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/105004712-af161480-5a77-11eb-9596-45b634795a43.png">
+</div>
+
+- youtube api의 popular video의 데이터를 받아 화면에 보이게 구현
+- 미디어쿼리를 이용하여 화면에 따른 반응형 화면 구현
 
 ### Search Page (view video searched keyword)
 ***
-<img width="1680" alt="스크린샷 2021-01-16 오후 4 09 47" src="https://user-images.githubusercontent.com/59603575/104805730-93133880-5815-11eb-8eeb-8efaf60912ca.png">
+<div>
+<img width="45%" alt="스크린샷 2021-01-16 오후 4 09 47" src="https://user-images.githubusercontent.com/59603575/104805730-93133880-5815-11eb-8eeb-8efaf60912ca.png">
+<img width="46%" alt="스크린샷 2021-01-16 오후 4 09 47" src="https://user-images.githubusercontent.com/59603575/105005989-62333d80-5a79-11eb-9bf4-d9dfd49bc9e2.png">
+</div>
+
+- 사용자가 search창에 입력한 keyword를 이용해서 youtube api의 search data를 받아와 화면에 보이게 구현
+- 화면에 따른 반응형 화면 구현
 
 ### Play Page (view video clicked)
 ***
-<img width="1680" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104805733-97d7ec80-5815-11eb-8f52-df801d5b676a.png">
 
-[Demo link](https://kwonkunkun.github.io/React_youtube/)
+<div>
+<img width="45%" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/105005981-5fd0e380-5a79-11eb-8254-4ac635cd33a6.png">
+<img width="45%" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/105005975-5e9fb680-5a79-11eb-80b6-fbbed7d873ae.png">
+</div>
 
+- thumbnail을 눌렀을때 그 thumbnail의 videoid에 맞는 비디오를 화면에 보이게 구현
+- 화면에 따른 반응형 화면 구현
+
+### Mobile!!
+<div>
+<img width="30%" alt="image" src="https://user-images.githubusercontent.com/59603575/105007489-66605a80-5a7b-11eb-9b40-b2705c500957.png">
+<img width="30%" alt="image" src="https://user-images.githubusercontent.com/59603575/105007992-028a6180-5a7c-11eb-9d77-5db73f8890eb.png">
+</div>
 ---
 
 ## Structure
@@ -96,6 +136,19 @@
 2. App에서 PAGE state 변경 </br>
 3. config에 받은 video id를 이용해서 getApiData요청 </br>
 4. 그 데이터를 이용해서 video title, like 등의 데이터들을 받아와서 video contanier에서 render
+
+---
+
+<div id="new"/>
+
+## 알게된 것
+
+- React의 state, props를 이해
+- component와 pure component의 차이점 학습
+- React hook 학습
+- postcss 학습
+- public api의 사용법, postman 이용방법 학습
+- 부족한 css의 grid에 대한 이해
 
 ---
 
