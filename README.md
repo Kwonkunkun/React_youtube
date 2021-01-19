@@ -54,15 +54,29 @@
 
 ### Default Page
 ***
-<img width="1680" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/104805728-91e20b80-5815-11eb-86a7-c35528058358.png">
+
+<div>
+<img width="40%" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/105004696-ab828d80-5a77-11eb-8359-c9d177e5556e.png">
+<img width="41%" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/105004700-acb3ba80-5a77-11eb-90f5-d29bb14a529c.png">
+</div>
+
+<div>
+<img width="40%" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/105004705-ade4e780-5a77-11eb-8b62-feaf7d1a154e.png">
+<img width="40%" alt="스크린샷 2021-01-16 오후 4 08 47" src="https://user-images.githubusercontent.com/59603575/105004712-af161480-5a77-11eb-9596-45b634795a43.png">
+</div>
+
+- fetch를 이용해서 youtube api의 popular video의 데이터를 받아서 화면에 뿌려주었다.
+- 화면에 따른 반응형 화면 구현
 
 ### Search Page (view video searched keyword)
 ***
-<img width="1680" alt="스크린샷 2021-01-16 오후 4 09 47" src="https://user-images.githubusercontent.com/59603575/104805730-93133880-5815-11eb-8eeb-8efaf60912ca.png">
+<img width="50%" alt="스크린샷 2021-01-16 오후 4 09 47" src="https://user-images.githubusercontent.com/59603575/104805730-93133880-5815-11eb-8eeb-8efaf60912ca.png">
+
+
 
 ### Play Page (view video clicked)
 ***
-<img width="1680" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104805733-97d7ec80-5815-11eb-8f52-df801d5b676a.png">
+<img width="50%" alt="스크린샷 2021-01-16 오후 4 10 08" src="https://user-images.githubusercontent.com/59603575/104805733-97d7ec80-5815-11eb-8f52-df801d5b676a.png">
 
 [Demo link](https://kwonkunkun.github.io/React_youtube/)
 
